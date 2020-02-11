@@ -1,0 +1,145 @@
+/*Insert form trigger*/
+.wp-media-buttons .iphorm-insert-form-trigger span {
+    background: url(../images/menu-icon.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 2px;
+    vertical-align: text-top;
+    margin-right: 7px;
+}
+.wp-media-buttons .iphorm-insert-form-trigger {
+    margin: 0px 7px 1px 0;
+    padding: 0 7px 1px 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+	vertical-align: top;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #555;
+    text-shadow: 1px 1px #fff;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+.wp-media-buttons .iphorm-insert-form-trigger:hover {
+	background: #fafafa;
+    border: 1px solid #999;
+    color: #222;
+}
+.wp-media-buttons .iphorm-insert-form-trigger:active {
+    outline: 0;
+    background: #eee;
+    border-color: #999;
+    color: #333;
+    -webkit-box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+    box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5);
+}
+@media only screen and (max-width: 782px) {
+    .wp-media-buttons .iphorm-insert-form-trigger span {
+        margin-top: 4px;
+        margin-left: -2px;
+    }
+    .wp-media-buttons .iphorm-insert-form-trigger {
+        padding: 0 20px 0 20px;
+        font-size: 14px;
+    }
+}
+/** WP 3.2 - 3.4 compatiblity **/
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger span,
+.branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger span {
+    display: none;
+}
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger,
+.branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger,
+.branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1;
+    height: auto;
+    cursor: pointer;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none;
+    vertical-align: bottom;
+    background: none;
+    border: none;
+    color: #333;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger {
+    vertical-align: baseline;
+    font-size: 13px;
+}
+@media only screen and (max-width: 782px) {
+    .branch-3-2 #media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger span {
+        display: none;
+    }
+    .branch-3-2 #media-buttons .iphorm-insert-form-trigger,
+    .branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger {
+        padding: 0;
+        font-size: 12px;
+    }
+}
+/** WP 3.5 - 3.7 compatiblity **/
+.branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger span {
+    margin-top: -1px;
+}
+.branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger,
+.branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger,
+.branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger {
+    font-size: 12px;
+    height: 24px;
+    line-height: 23px;
+    background:#f3f3f3;
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4));
+    background-image:-webkit-linear-gradient(top,#fefefe,#f4f4f4);
+    background-image:-moz-linear-gradient(top,#fefefe,#f4f4f4);
+    background-image:-o-linear-gradient(top,#fefefe,#f4f4f4);
+    background-image:linear-gradient(to bottom,#fefefe,#f4f4f4);
+    border-color:#bbb;
+    color:#333;
+    text-shadow:0 1px 0 #fff;
+}
+.branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger:hover,
+.branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger:hover,
+.branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger:hover {
+    border: 1px solid #999;
+}
+@media only screen and (max-width: 782px) {
+    .branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger span {
+        margin-right: 7px;
+        margin-left: 0;
+    }
+    .branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger {
+        padding: 0 7px 1px 5px;
+        font-size: 12px;
+    }
+}

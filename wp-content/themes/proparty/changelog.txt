@@ -1,0 +1,34 @@
+Version 1.4.1
+    * plugins updated
+    * minor css fixes
+    * google map updated
+Version 1.4
+	* WP 4.5 ready
+	* plugins updated
+Version 1.3.4
+	* underslider block style fix
+Version 1.3.3
+	* emailer messages fix
+	* TribeEvents functionality improved
+	* plugins updated
+	* plugin installer updated
+	* Button color fixed
+	* Social share color fixed
+	* Essential Grids updated
+Version 1.3.2
+	* Fixed dates localization
+Version 1.3.1
+	* Fixed events isotope error
+Version 1.3
+	* Emailer group fixed
+	* VC critical update
+Version 1.2.1
+	* VC plugin update
+	* Instagram plugin update
+Version 1.2
+	* VC content duplication fixed
+	* Fixed Emailer form
+Version 1.1
+	* Home 1 slider improved
+Version 1.0
+	Release

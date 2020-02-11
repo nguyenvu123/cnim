@@ -1,0 +1,351 @@
+#lpsbutton-button, #lpsbutton, #lpsbutton-button *, #lpsbutton * {
+    color: #3e4cb7 !important;
+}
+
+#lps_shortcode_popup_container_bg {
+    position: fixed;
+    z-index: 100000;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
+}
+#lps_shortcode_popup_container {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100001;
+    top:20px;
+    left:20px;
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    overflow: hidden;
+    padding: 10px;
+    background: #FFFFFF;
+    color: #555555;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#lps_shortcode_popup_container,
+#lps_shortcode_popup_container * {
+    box-sizing: border-box;
+}
+
+.lps_shortcode_popup_container_title {
+    font-size: 1.5em;
+    color: #FFF;
+    line-height: 1.4em;
+    margin-top: 0 !important;
+    padding-left:0 !important;
+}
+
+.lps_shortcode_popup_container_title img {
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.lps_shortcode_popup_container_table {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3e4cb7;
+}
+
+.lps_shortcode_popup_container_table .button.button-primary {
+	padding: 5px; border-radius: 3px; cursor: pointer; line-height: 18px;
+}
+
+.lps_shortcode_popup_container_table .shortcode-preview * {
+    color: #FFF;
+}
+
+.lps_shortcode_popup_container_table input[type="text"],
+.lps_shortcode_popup_container_table input[type="number"],
+.lps_shortcode_popup_container_table select {
+	background-color:#FFF;
+}
+.lps_shortcode_popup_container_table .clear:after {display: table; width: 100%; clear: both; content: '';}
+
+.lps_shortcode_popup_container_table * {
+    white-space: normal !important;
+}
+
+.lps_shortcode_popup_container_table .shortcode-settings {
+    width: 67%;
+    max-height: 100%;
+    padding: 10px 0;
+    vertical-align: top;
+    background-color: #FFF;
+}
+
+.lps_shortcode_popup_container_table .shortcode-preview {
+    min-width: 280px; width: 33%; padding: 10px; vertical-align: top; background: #3e4cb7;
+}
+
+.lps_shortcode_popup_container_table .lps-ui-menu {
+    padding-top: 0;
+    margin-top: 0;
+}
+.lps_shortcode_popup_container_table .lps-ui-menu li {
+    display: block;
+}
+.lps_shortcode_popup_container_table .lps-ui-menu li.selected a {
+    border-left: 10px solid rgba(255,255,255,0.2);
+    padding-left: 5px;
+}
+
+.lps_shortcode_popup_container_table .lps-ui-menu li a {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.lps_shortcode_popup_container_table .left-padd {
+    padding-left: 10px;
+}
+
+@media all and (max-width: 600px) {
+    .lps_shortcode_popup_container_table .shortcode-settings,
+    .lps_shortcode_popup_container_table .shortcode-preview {
+        width: 100%;
+        height: auto;
+        max-height: auto;
+        display: block;
+        clear: both;
+        position: relative;
+    }
+    .lps_shortcode_popup_container_table .lps-ui-menu li {
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+    .lps_shortcode_popup_container_table .inner table tr td {
+        width: 100%;
+        height: auto;
+        max-height: auto;
+        display: block;
+        clear: both;
+        position: relative;
+    }
+
+    .lps_shortcode_popup_container_table #lps-preview {
+        display: block;
+        width: 100%;
+        max-height: 48px;
+        overflow-y: scroll;
+        padding: 0px;
+        line-height: 17px;
+    }
+
+    .lps_shortcode_popup_container_table h1 {
+        margin: 0;
+    }
+
+    .lps_shortcode_popup_container_table label, .lps_shortcode_popup_container_table label.show-options {
+        width: 100%;
+        min-width: 100%;
+    }
+    .lps_shortcode_popup_container_table .block-use.available-for-tiles table td {width: 100% !important}
+}
+
+.lps_shortcode_popup_container_table .float-right {
+    float: right;
+    min-width: 80px;
+    text-align: center;
+    background: #EB1461;
+    border: 0;
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.lps_shortcode_popup_container_table .shortcode-settings .inner {
+    overflow-y: scroll;
+    background-color: #FFF;
+}
+
+.lps_shortcode_popup_container_table .shortcode-preview  #lps_preview_embed_shortcode {
+    background-color: #FFF;
+    color: #000;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.lps_shortcode_popup_container_table hr {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 0;
+}
+
+.lps_shortcode_popup_container_table * .settings-block {
+    padding: 10px;
+    border: 1px solid #F8F9F9;
+    background: #F8F9F9;
+}
+.lps_shortcode_popup_container_table * .settings-block img {
+    cursor: pointer;
+}
+
+.lps_shortcode_popup_container_table * .settings-block:nth-child(odd) {
+    border: 1px solid #EEE;
+    background: #EEE;
+}
+
+.lps_shortcode_popup_container_table .settings-block hr {
+    border-top: 1px solid #EEE;
+}
+
+.lps_shortcode_popup_container_table .settings-block:nth-child(odd) hr {
+    border-top: 1px solid #F8F9F9;
+}
+
+.lps_shortcode_popup_container_table h1 {
+    font-size: 1.3em;
+    line-height: 2.1em;
+    margin-top: 0;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #EB1461;
+    font-weight: normal;
+}
+.lps_shortcode_popup_container_table h3 {
+    font-size: 1.15em;
+    margin: 0 0 0 0;
+    color: #909497;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.lps_shortcode_popup_container_table .shortcode-preview h3 {
+    line-height: 2.5em;
+}
+
+.lps_shortcode_popup_container_table .shortcode-settings .inner table tr td:first-child,
+.lps_shortcode_popup_container_table .shortcode-settings .inner table tr td.title,
+.lps_shortcode_popup_container_table .shortcode-settings .inner .title {
+    width: 150px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding-top: 1em;
+    font-size: 11px !important;
+}
+.lps_shortcode_popup_container_table .shortcode-settings .inner label.title {
+    padding-top: 0;
+    margin: 0;
+}
+.lps_shortcode_popup_container_table .shortcode-settings .inner table tr td.normal {
+    color: #444;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.lps_shortcode_popup_container_table .shortcode-settings .inner table tr td.comment,
+.lps_shortcode_popup_container_table .shortcode-settings .inner .comment {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 1px;
+}
+
+.lps_shortcode_popup_container_table .shortcode-settings .inner table tr td.left-padd {
+    padding-left: 20px;
+}
+
+.lps_shortcode_popup_container_table input[type="text"],
+.lps_shortcode_popup_container_table input[type="number"],
+.lps_shortcode_popup_container_table select,
+.lps_shortcode_popup_container_table label,
+.lps_shortcode_popup_container_table label b,
+.lps_shortcode_popup_container_table label em {
+    font-size: 1em;
+    line-height: 32px;
+    height: 32px;
+    margin: 5px 0 0 0;
+    padding: 0 5px;
+    vertical-align: middle !important;
+    box-sizing: border-box;
+}
+
+.lps_shortcode_popup_container_table input[type="text"],
+.lps_shortcode_popup_container_table input[type="number"],
+.lps_shortcode_popup_container_table select {
+    min-width: 96% !important;
+    width: 96% !important;
+    border: 1px solid #CCC;
+}
+
+.lps_shortcode_popup_container_table .small-input {
+    min-width: 60px !important;
+    width: 60px !important;
+}
+
+.lps_shortcode_popup_container_table label {
+    width: 49%;
+    min-width: 120px;
+    display: inline-block;
+}
+.lps_shortcode_popup_container_table *.wide {
+    width: 100% !important;
+    display: block;
+}
+
+.lps_shortcode_popup_container_table label.without-link,
+.lps_shortcode_popup_container_table label.with-link {
+    display: block; float: left; width: 98px; min-width: 98px; max-width: 98px; height: 70px;
+    position: relative; text-align: center; padding: 0 0 0 5px !important; margin-right: 5px;
+    background: #D5D5D5; border: 1px solid #CCC;
+}
+.lps_shortcode_popup_container_table label.without-link input,
+.lps_shortcode_popup_container_table label.with-link input {
+    margin-left: 0px; width: 16px; height: 16px;
+}
+.lps_shortcode_popup_container_table label.custom-type {
+    color: #AAA; display: block; line-height: inherit; font-style: italic;
+}
+
+.lps_shortcode_popup_container_table label.custom-type span {
+    display: block; font-size: 11px; height: 100%; line-height: 14px; padding: 0.5rem; position: absolute;
+}
+
+.lps_shortcode_popup_container_table label img {
+    max-width: 70px; border-left: 1px solid #CCC; float: right;
+}
+
+.lps_shortcode_popup_container_table label.with-link {
+    display: none;
+}
+
+.lps_shortcode_popup_container_table label.without-link input[type="radio"],
+.lps_shortcode_popup_container_table label.with-link input[type="radio"] {
+    /*bottom: 10px;
+    left: 5px;
+    position: absolute;*/
+}
+
+.lps_shortcode_popup_container_table label.custom-type span {
+    display: block; font-size: 0.8rem; height: 100%; line-height: 0.8rem; padding: 0.5rem; position: absolute;
+}
+
+.lps_shortcode_popup_container_table label.show-options {
+    display: inline-block !important; height: 32px; min-width: 30%;
+}
+
+.lps_shortcode_popup_container_table .extra-options-wrap {
+    padding-left: 30px;
+}
+
+.lps_shortcode_popup_container_table .lps-experimental {border: 2px solid rgba(253,247,51,0.4); background: rgba(255,255,255,0.4); position: relative; padding: 10px 20px;}
+.lps_shortcode_popup_container_table .lps-experimental:before {content: 'Experimental'; background: rgba(253,247,51,0.25); display: inline-block; position: absolute; width: 90px; margin-top:-30px; text-transform: uppercase; text-align: center; font-size: 10px; line-height: 20px; height: 20px; color: #000;}
+
+/* Elementor support */
+.fa.fa-lps-icon:before {
+	width: 28px; height: 28px; display: block; content: ' ';
+	background: url('../../assets/images/icon-purple-28x28.png') no-repeat 50% 50%;
+}
+.elementor-element:hover .fa.fa-lps-icon:before {
+	background: url('../../assets/images/icon-pink-28x28.png') no-repeat 50% 50%;
+}
+.elementor-control-title img {vertical-align: middle;}
